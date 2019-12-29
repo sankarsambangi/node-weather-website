@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding: 0 16px;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+}
+h1{
+    color: #333333;
+}
+img {
+    width: 250px;
+    height: 250px;
+}
